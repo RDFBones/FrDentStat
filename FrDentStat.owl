@@ -668,9 +668,9 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ConclusionOnDentalStatus -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ConclusionOnDentalStatus">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -752,9 +752,9 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.DentalStatus -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.FrDentStat -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.DentalStatus">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.FrDentStat">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -765,13 +765,13 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ConclusionOnDentalStatus"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.DentalStatus"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrDentStat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -812,7 +812,7 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.DentalStatus"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrDentStat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>For each DentalStatus investigation, an instance of Plan.DentalStatus is created.
@@ -823,14 +823,14 @@ A detailed plan contributes substantially to the transperancy of an investigatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Planning.DentalStatus -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrDentStat -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.DentalStatus">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrDentStat">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000339"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.DentalStatus"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrDentStat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>For each DentalStatus investigation that is carried out, an instance of Planning.DentalStatus is created. Comments may be added to Planning.DentalStatus to document all discussions, preparations etc. which were performed before researchers agreed on carrying out a DentalStatus investigation.</core1:description>
@@ -1436,11 +1436,11 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.DentalStatus -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.DentalStatus">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
-        <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.DentalStatus</rdfs:label>
+        <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1505,9 +1505,9 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.DentalStatus -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrDentStat -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.DentalStatus">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrDentStat">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DegreeAndLocalizationOfCaries"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DentalCalculus"/>
@@ -1516,10 +1516,22 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Periodontosis"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ToothAbrasion"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#FreiburgDentalStatusDataEntryForm"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.DentalStatus"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.DegreeAndLocalizationOfCaries"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.DentalCalculus"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.LinearEnamelHypoplasia"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Periodontitis"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Periodontosis"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ToothAbrasion"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.DegreeAndLocalizationOfCaries"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.DentalCalculus"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.LinearEnamelHypoplasia"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Periodontitis"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Periodontosis"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ToothAbrasion"/>
         <core1:description>The StudyDesign.DentalStatus brings together all the information that is necessary for carrying out a DentalStatus investigation: what material is suitable and how it is selected as well as what kind of data are collected.
 Furthermore, the general StudyDesign.DentalStatus is concretized as a Plan.DentalStatus which specifies how the StudyDesign.DentalStatus is applied to the material in a single investigation.</core1:description>
-        <rdfs:label>StudyDesign.DentalStatus</rdfs:label>
+        <rdfs:label>StudyDesign.FrDentStat</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1597,5 +1609,5 @@ It is used to determine that the specified input of the corresponding SpecimenCo
 
 
 
-<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
