@@ -1231,6 +1231,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DegreeAndLocalizationOfCaries">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.DegreeAndLocalizationOfCaries"/>
         <rdfs:label>AssaySpecification.DegreeAndLocalizationOfCaries</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1240,6 +1241,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DentalCalculus">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.DentalCalculus"/>
         <rdfs:label>AssaySpecification.DentalCalculus</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1249,6 +1251,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.LinearEnamelHypoplasia">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LinearEnamelHypoplasia"/>
         <rdfs:label>AssaySpecification.LinearEnamelHypoplasia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1258,6 +1261,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Periodontitis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Periodontitis"/>
         <rdfs:label>AssaySpecification.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1267,6 +1271,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Periodontosis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Periodontosis"/>
         <rdfs:label>AssaySpecification.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1276,6 +1281,7 @@ Thus, an investigation which comprises the assessments of the dental status of s
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ToothAbrasion">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ToothAbrasion"/>
         <rdfs:label>AssaySpecification.ToothAbrasion</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1380,6 +1386,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.DegreeAndLocalizationOfCaries">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DegreeAndLocalizationOfCaries"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.DegreeAndLocalizationOfCaries"/>
         <rdfs:label>SkeletalMaterialRequirement.DegreeAndLocalizationOfCaries</rdfs:label>
     </owl:NamedIndividual>
@@ -1390,6 +1397,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.DentalCalculus">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DentalCalculus"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.DentalCalculus"/>
         <rdfs:label>SkeletalMaterialRequirement.DentalCalculus</rdfs:label>
     </owl:NamedIndividual>
@@ -1400,6 +1408,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.LinearEnamelHypoplasia">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrDentStat#SpecimenCollectionProcess.LinearEnamelHypoplasia"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.LinearEnamelHypoplasia"/>
         <rdfs:label>SkeletalMaterialRequirement.LinearEnamelHypoplasia</rdfs:label>
     </owl:NamedIndividual>
@@ -1410,6 +1419,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Periodontitis">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontitis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontitis"/>
         <rdfs:label>SkeletalMaterialRequirement.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
@@ -1420,6 +1430,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Periodontosis">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontosis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontosis"/>
         <rdfs:label>SkeletalMaterialRequirement.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
@@ -1430,6 +1441,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ToothAbrasion">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ToothAbrasion"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ToothAbrasion"/>
         <rdfs:label>SkeletalMaterialRequirement.ToothAbrasion</rdfs:label>
     </owl:NamedIndividual>
@@ -1440,6 +1452,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat</rdfs:label>
     </owl:NamedIndividual>
     
