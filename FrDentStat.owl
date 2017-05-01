@@ -190,6 +190,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000144"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572"/>
@@ -340,45 +346,15 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone -->
+    <!-- http://w3id.org/rdfbones/core#EntireTooth -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireTooth"/>
     
 
 
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfMandible -->
+    <!-- http://w3id.org/rdfbones/core#EntireToothSocket -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireToothSocket"/>
     
 
 
@@ -421,7 +397,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DegreeAndLocalizationOfCaries"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DegreeAndLocalizationOfCaries"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -455,7 +431,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DentalCalculus"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DentalCalculus"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -489,7 +465,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.LinearEnamalHypoplasia"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.LinearEnamalHypoplasia"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -523,7 +499,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontitis"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontitis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -557,7 +533,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontosis"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontosis"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -591,7 +567,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.ToothAbrasion"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.ToothAbrasion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -601,43 +577,7 @@
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DegreeAndLocalizationOfCaries"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DentalCalculus"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.LinearEnamalHypoplasia"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontitis"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontosis"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Score.ToothAbrasion"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000144"/>
         <core1:description>Usually, a FrDentStat investigation has no conclusion. The conclusion classes are just added since the RDFBones software assumes that every investigation has its own conclusion.</core1:description>
     </owl:Class>
     
@@ -647,6 +587,158 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DegreeAndLocalizationOfCaries -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DegreeAndLocalizationOfCaries">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfCaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForLocalizationOfCaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DentalCalculus -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DentalCalculus">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.LinearEnamalHypoplasia -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.LinearEnamalHypoplasia">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontitis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontitis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontosis -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontosis">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.ToothAbrasion -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.ToothAbrasion">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfToothAbrasion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrDentStat -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrDentStat">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DegreeAndLocalizationOfCaries"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.DentalCalculus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.LinearEnamalHypoplasia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontitis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.Periodontosis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore.ToothAbrasion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Usually, a FrDentStat investigation has no conclusion. The conclusion classes are just added since the RDFBones software assumes that every investigation has its own conclusion.</core1:description>
     </owl:Class>
     
 
@@ -664,7 +756,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrDentStat"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrDentStat"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -707,7 +799,7 @@ Information about the completeness of the dentition, primary or secondary dentit
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Schultz1988"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>A set of instances which are used to score the degree of the following dental pathologies:
+        <core1:description>A set of instances which are used to score the degree of the following dental pathologies: dental calculus, linear enamel hypoplasia, periodontosis and periodontitis.
 
 Schultz 1988 contains pictures and descriptions for each pathology with detailed information so that a rearchers knows how to assign these instances correctly.</core1:description>
     </owl:Class>
@@ -763,7 +855,6 @@ Schultz 1988 contains pictures and descriptions for each pathology with detailed
         <core1:description>For each FrDentStat investigation, an instance of Plan.DentalStatus is created.
 The Plan.DentalStatus contains all information on how the StudyDesign.DentalStatus is applied to the material in this single investigation.
 A detailed plan contributes substantially to the transperancy of an investigation and increases its repeatability.</core1:description>
-        <core1:description>Here are some points left open by StudyDesignFrSexEst plus examples of plan specifications:</core1:description>
     </owl:Class>
     
 
@@ -780,101 +871,6 @@ A detailed plan contributes substantially to the transperancy of an investigatio
         </rdfs:subClassOf>
         <core1:description>For each DentalStatus investigation that is carried out, an instance of Planning.DentalStatus is created. Comments may be added to Planning.DentalStatus to document all discussions, preparations etc. which were performed before researchers agreed on carrying out a DentalStatus investigation.</core1:description>
         <core1:description>Planning.DentalStatus has in contrast to other investigation planning processes no testable hypothesis as input since the process of assessing and documenting the dental status of an individual can be undertaken without testing any hypothesis.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.DegreeAndLocalizationOfCaries -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DegreeAndLocalizationOfCaries">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfCaries"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForLocalizationOfCaries"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.DentalCalculus -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.DentalCalculus">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.LinearEnamalHypoplasia -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.LinearEnamalHypoplasia">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontitis -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontitis">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontosis -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.Periodontosis">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfDentalPathologies"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Score.ToothAbrasion -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Score.ToothAbrasion">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfToothAbrasion"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -905,7 +901,7 @@ The class which SkeletalMaterialSpecification.FrDentStat is about defines the ra
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -921,7 +917,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -937,7 +933,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -953,7 +949,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -969,7 +965,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -985,7 +981,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrDentStat).
 Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
@@ -995,6 +991,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DegreeAndLocalizationOfCaries">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -1017,6 +1019,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.DentalCalculus"/>
             </owl:Restriction>
@@ -1037,6 +1045,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.LinearEnamelHypoplasia"/>
             </owl:Restriction>
@@ -1047,6 +1061,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.LinearEnamelHypoplasia"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
     </owl:Class>
     
 
@@ -1055,6 +1071,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontitis">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -1077,6 +1105,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Periodontosis"/>
             </owl:Restriction>
@@ -1095,6 +1135,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ToothAbrasion">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -1189,7 +1235,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <core1:description>For each individual&apos;s dental apparatus that should be recorded, an instance of StudyDesignExecution.DentalStatus is created.
 All assays which can be carried out on this dental apparatus have only material from this dental apparatus as input (=specimen). These assays are related to the corresponding instance of StudyDesignExecution.DentalStatus.
-Thus, each investigation corresponds to the examination of a single dental apparatus.</core1:description>
+Thus, each investigation corresponds to the examination of a single dental apparatus. There may be several instances of assays and specimen collection processes per investigation since an individual dentition consists of several teeth and all of them can be examined in one investigation.</core1:description>
     </owl:Class>
     
 
@@ -1210,6 +1256,12 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/core#complete">
         <rdfs:label>complete</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#expressed -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/core#expressed"/>
     
 
 
@@ -1260,6 +1312,7 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DegreeAndLocalizationOfCaries">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.DegreeAndLocalizationOfCaries"/>
+        <core1:description>The degree and localization of caries on human teeth is classified according to the three-level categorization suggested in the Freiburg data entry form for dental status.</core1:description>
         <rdfs:label>AssaySpecification.DegreeAndLocalizationOfCaries</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1270,6 +1323,8 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.DentalCalculus">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.DentalCalculus"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Schultz1988"/>
+        <core1:description>The degree of dental calculus observed on a single tooth should be scored according to Schultz 1988 (graph 175, a &amp; b).</core1:description>
         <rdfs:label>AssaySpecification.DentalCalculus</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1280,6 +1335,8 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.LinearEnamelHypoplasia">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LinearEnamelHypoplasia"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Schultz1988"/>
+        <core1:description>The degree of linear enamel hypoplasia observed on a single tooth should be scored according to Schultz 1988 (graph 176).</core1:description>
         <rdfs:label>AssaySpecification.LinearEnamelHypoplasia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1290,6 +1347,8 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Periodontitis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Periodontitis"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Schultz1988"/>
+        <core1:description>The degree of periodontitis observed on a single tooth, its corresponding alveolus and the surrounding region of the alveolar bone should be scored according to Schultz 1988 (graph 175, c).</core1:description>
         <rdfs:label>AssaySpecification.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1300,6 +1359,8 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Periodontosis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Periodontosis"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Schultz1988"/>
+        <core1:description>The degree of periodontosis observed on a single tooth, its corresponding alveolus and the surrounding region of the alveolar bone should be scored according to Schultz 1988 (graph 175, c).</core1:description>
         <rdfs:label>AssaySpecification.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1310,6 +1371,8 @@ Thus, each investigation corresponds to the examination of a single dental appar
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ToothAbrasion">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ToothAbrasion"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HerrmannEtAl1990"/>
+        <core1:description>The degree of tooth abrasion should be scored according to Herrmann et al. 1990 (graph 3.2.1.8).</core1:description>
         <rdfs:label>AssaySpecification.ToothAbrasion</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1334,8 +1397,6 @@ Thus, each investigation corresponds to the examination of a single dental appar
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#FreiburgDentalStatusDataEntryForm">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <core1:description>In the software version of DentalStatus, a PDF and csv version of the Freiburg data entry form for the recording of an individual&apos;s dental status is attached to this instance.
-The data entry form can be downloaded from the GitHub page of DentalStatus alternatively.</core1:description>
         <rdfs:label>FreiburgDentalStatusDataEntryForm</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1526,7 +1587,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Paleopathology">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
-        <core1:description>Some variables that are assess in a DentalStatus investigation may be relevant for paleopathological examinations, for instance the appearance of linear enamel hypoplasia or the degree of caries.</core1:description>
+        <core1:description>Paleopathological examinations of a human skeleton are carried out to infer information about an individuals health status and life cirumstances during his life and at death from skeletal traits.</core1:description>
         <rdfs:label>Paleopathology</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1548,6 +1609,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DegreeAndLocalizationOfCaries"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.DegreeAndLocalizationOfCaries"/>
+        <core1:description>The human teeth which are screened for caries lesions must be complete.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.DegreeAndLocalizationOfCaries</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1559,6 +1621,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DentalCalculus"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.DentalCalculus"/>
+        <core1:description>The human teeth which are screened for dental calculus must be complete.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.DentalCalculus</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1570,6 +1633,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrDentStat#SpecimenCollectionProcess.LinearEnamelHypoplasia"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.LinearEnamelHypoplasia"/>
+        <core1:description>The human teeth which are screened for linear enamel hypoplasia must be complete.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.LinearEnamelHypoplasia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1581,6 +1645,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontitis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontitis"/>
+        <core1:description>In order to examined periodontitis, a human tooth and its corresponding tooth socket must be complete and expressed, respectively.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1592,6 +1657,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontosis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontosis"/>
+        <core1:description>In order to examined periodontosis, a human tooth and its corresponding tooth socket must be complete and expressed, respectively.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1603,6 +1669,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ToothAbrasion"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ToothAbrasion"/>
+        <core1:description>The human teeth whose degree of abrasion is examined must be complete.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.ToothAbrasion</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1613,6 +1680,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore"/>
+        <core1:description>In a FrDentStat investigation, only categorical data of the type DentalStatusScore are generated.</core1:description>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrDentStat</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1622,7 +1690,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.DegreeAndLocalizationOfCaries">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.MastoidProcess</core1:description>
+        <core1:description>Only complete human teeth are potential Specimen.DegreeAndLocalizationOfCaries</core1:description>
         <rdfs:label>SpecimenCollectionObjective.DegreeAndLocalizationOfCaries</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1632,7 +1700,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.DentalCalculus">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete frontal and parietal bones is a potential Specimen.FrontalAndParietalEminences</core1:description>
+        <core1:description>Only complete human teeth are potential Specimen.DentalCalculus</core1:description>
         <rdfs:label>SpecimenCollectionObjective.DentalCalculus</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1642,7 +1710,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.LinearEnamelHypoplasia">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete occipital bones are potential Specimen.ExternalOccipitalProtuberance</core1:description>
+        <core1:description>Only complete human teeth are potential Specimen.LinearEnamelHypoplasia</core1:description>
         <rdfs:label>SpecimenCollectionObjective.LinearEnamelHypoplasia</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1652,7 +1720,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Periodontitis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete frontal bones are potential Specimen.Glabella</core1:description>
+        <core1:description>In order to examined periodontitis, a human tooth and its corresponding tooth socket must be present.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1662,7 +1730,7 @@ The data entry form can be downloaded from the GitHub page of DentalStatus alter
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Periodontosis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.GonialAngle</core1:description>
+        <core1:description>In order to examined periodontosis, a human tooth and its corresponding tooth socket must be present.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1780,6 +1848,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontitis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#expressed"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
         <rdfs:label>ValueSpecification.Periodontitis</rdfs:label>
@@ -1792,6 +1861,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontosis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#expressed"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
         <rdfs:label>ValueSpecification.Periodontosis</rdfs:label>
@@ -1900,6 +1970,29 @@ It is used to determine that the specified input of the corresponding SpecimenCo
 3: enamel on the occlusal surface abraded
 
 4: tooth crown adraded</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DentalStatusScore">
+        <core1:description>Categorical data about the degree or localization of dental pathologies on human teeth expressed by assigning different categorical labels to instances of one of the subclasses of DentalStatusScore.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DegreeAndLocalizationOfCaries">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.DentalCalculus">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontitis">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontosis">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ToothAbrasion">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrDentStat.</core1:description>
     </rdf:Description>
 </rdf:RDF>
 
