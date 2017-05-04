@@ -358,6 +358,12 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/core#PrimaryDentalInventory -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#PrimaryDentalInventory"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#SkeletalInventory -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventory"/>
@@ -882,7 +888,7 @@ A detailed plan contributes substantially to the transperancy of an investigatio
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#PrimaryDentalInventory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
@@ -1533,7 +1539,7 @@ Thus, each investigation corresponds to the examination of a single dental appar
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfToothAbrasion4">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForDegreeOfToothAbrasion"/>
-        <rdfs:label>4: tooth crown adraded</rdfs:label>
+        <rdfs:label>4: tooth crown abraded</rdfs:label>
     </owl:NamedIndividual>
     
 
