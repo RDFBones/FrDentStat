@@ -1271,6 +1271,12 @@ Thus, each investigation corresponds to the examination of a single dental appar
     
 
 
+    <!-- http://w3id.org/rdfbones/core#open -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/core#open"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrDentStat#SpecimenCollectionProcess.LinearEnamelHypoplasia -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrDentStat#SpecimenCollectionProcess.LinearEnamelHypoplasia"/>
@@ -1651,7 +1657,7 @@ Thus, each investigation corresponds to the examination of a single dental appar
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontitis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontitis"/>
-        <core1:description>In order to examined periodontitis, a human tooth and its corresponding tooth socket must be complete and expressed, respectively.</core1:description>
+        <core1:description>In order to examine periodontitis, a human tooth and its corresponding tooth socket must be complete and open, respectively.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.Periodontitis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1663,7 +1669,7 @@ Thus, each investigation corresponds to the examination of a single dental appar
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Periodontosis"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontosis"/>
-        <core1:description>In order to examined periodontosis, a human tooth and its corresponding tooth socket must be complete and expressed, respectively.</core1:description>
+        <core1:description>In order to examine periodontosis, a human tooth and its corresponding tooth socket must be complete and expressed, respectively.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.Periodontosis</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1854,7 +1860,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontitis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#expressed"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#open"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
         <rdfs:label>ValueSpecification.Periodontitis</rdfs:label>
@@ -1867,7 +1873,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Periodontosis">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#expressed"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#open"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
         <rdfs:label>ValueSpecification.Periodontosis</rdfs:label>
